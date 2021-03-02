@@ -1,0 +1,111 @@
+
+html, body {
+    height: 100vh;
+    margin: 0 auto;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.background {
+    height: 100%;
+    position: relative;
+}
+
+.bg-bottom-container {
+    position: relative;
+    height: 100%;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: absolute;
+    right: 50%;
+    bottom: 40%;
+}
+
+.bg-bottom {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.hero {
+    position: absolute;
+    background-color: white;
+    top: 25vh;
+    left: 35vw;
+    width: 30vw;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .bg-card {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.hero > .bg-card > img {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 2;
+}
+
+.hero-image > img {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    border-radius: 50%;
+    border: white solid 5px;
+    z-index: 3;
+}
+
+.hero > .title {
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.hero > .location {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.sm-container {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sm-component {
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700px;
+}
